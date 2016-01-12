@@ -1,0 +1,10 @@
+{
+  "name" : "empty-project",
+  "scripts" : {
+    "test" : "tape ./tests/test.js | faucet"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.4.0"
+  }
+}
